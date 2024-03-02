@@ -17,7 +17,7 @@ export default function Header() {
 
             <div className='flex items-center justify-center'>
                 {/* <img className='w-12 h-12' src={logoUNJFS} alt='Logo' /> */}
-                <span className='font-bold max-md:hidden'>UJFSC Coding</span>
+                <span className='font-bold max-md:hidden'>GPC UNJFSC</span>
                 <RxHamburgerMenu onClick={toggleNav} className='w-4 h-4 hidden max-md:block cursor-pointer' />
             </div>
             <nav className='flex flex-row gap-x-10 opacity-80 items-center'>
@@ -29,7 +29,7 @@ export default function Header() {
                     <Link to='/calendar' >Calendario</Link>
                 </div>
                 <div className='flex flex-row gap-2 items-center justify-center'>
-                    <a href='https://github.com'>
+                    <a href='https://github.com/gpcunjfsc/gpcunjfsc.github.io'>
                         <FaGithub className='w-4 h-4' />
                     </a>
                 </div>

@@ -1,6 +1,6 @@
-import pictureNews from '../assets/images/Phase2.png'
 
-export function Card() {
+
+export function Card({pictureNews}) {
     return (
         <div className="max-w-sm p-8 flex flex-col items-center justify-center text-center border rounded-lg shadow bg-black border-gray-900 ">
             <div>
