@@ -22,13 +22,13 @@ export default function Main() {
                 </div>
                 <div className=" flex flex-row items-center justify-center">
                     <Badge text="UNJFSC" color="blue" />
-                    <Badge text="Competitive Programming" color="red"/>
+                    <Badge text="Competitive Programming" color="red" />
                     <Badge text="Data Structures" color="purple" />
                 </div>
             </section>
             <section className="flex flex-col  w-full items-center mx-auto py-2">
                 <div>
-                <div className="flex text-center text-3xl font-bold pb-4">Ultimas Noticias</div>
+                    <div className="flex text-center text-3xl font-bold pb-4">Ultimas Noticias</div>
                 </div>
                 <div className="flex flex-col gap-8 md:flex-row">
                     <Card pictureNews={pictureCard} />
