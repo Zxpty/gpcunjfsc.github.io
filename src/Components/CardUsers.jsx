@@ -1,6 +1,6 @@
 
 
-export function CardUsers({pictureNews, name}) {
+export function CardUsers({pictureNews, name, rol}) {
     return (
         <div className="w-72 p-8 flex flex-col items-center justify-center  border rounded-lg shadow bg-black border-gray-900 ">
             <div>
@@ -9,7 +9,7 @@ export function CardUsers({pictureNews, name}) {
             <a href="#">
                 <h5 className="mb-2 text-xl font-bold tracking-tight text-white">{name}</h5>
             </a>
-            <p className="mb-3 font-normal  text-gray-400">Lider de Comunidad</p>
+            <p className="mb-3 font-normal  text-gray-400">{rol}</p>
         </div>
     )
 }

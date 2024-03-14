@@ -1,5 +1,5 @@
 import { CardUsers } from "./CardUsers";
-import pictureCard from '../assets/images/Phase2.png'
+import { users } from "../utils/user.js";
 export default function Nosotros() {
     return (
         <div className="section py-28 md:py-28 scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl">
@@ -22,13 +22,10 @@ export default function Nosotros() {
                 <div>
                     <h1 className="text-4xl font-bold pb-2 max-md:w-full max-md:text-3xl text-white">Miembros</h1>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-md:place-items-center  mx-auto justify-center py-2">
-                        <CardUsers pictureNews={pictureCard} name="Jhon Oblitas Gavidia" />
-                        <CardUsers pictureNews={pictureCard} name="Mariana Luyo Villalobos" />
-                        <CardUsers pictureNews={pictureCard} name="Migue Rojas Retuerto" />
-                        <CardUsers pictureNews={pictureCard} name="Migue Rojas Retuerto" />
-                        <CardUsers pictureNews={pictureCard} name="Migue Rojas Retuerto" />
-                        <CardUsers pictureNews={pictureCard} name="Migue Rojas Retuerto" />
-                        {/* Agrega más CardUsers según sea necesario */}
+                       { users.map(user =>(
+                        <CardUsers key={user.name} pictureNews={user.picCard} name={user.name} rol={user.rol}/>
+                       ))
+                       }
                     </div>
                 </div>
 

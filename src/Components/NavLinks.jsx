@@ -2,11 +2,11 @@ import { Link } from 'react-router-dom';
 export default function NavLInks() {
     return (
         <>
-            <Link to='/' >Inicio</Link>
-            <Link to='/about' >Nosotros</Link>
-            <Link to='/blog' >Blog</Link>
-            <Link to='/preparation' >Recursos</Link>
-            <Link to='/calendar' >Calendario</Link>
+            <Link className='max-md:hover:border-b-2 max-md:hover:border-blue-500' to='/' >Inicio</Link>
+            <Link className='max-md:hover:border-b-2 max-md:hover:border-blue-500' to='/about' >Nosotros</Link>
+            <Link className='max-md:hover:border-b-2 max-md:hover:border-blue-500' to='/blog' >Blog</Link>
+            <Link className='max-md:hover:border-b-2 max-md:hover:border-blue-500' to='/preparation' >Recursos</Link>
+            <Link className='max-md:hover:border-b-2 max-md:hover:border-blue-500' to='/calendar' >Calendario</Link>
         </>
     )
 }

@@ -24,6 +24,7 @@ export default function Preparate() {
                     </p>
                     <ul className="list-disc pl-5 ">
                         <li ><a className="hover:border-b-2 hover:border-blue-500" href="">Introducción C++ - OmegaUp</a></li>
+                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://www.hackerrank.com/domains/cpp">Learn Cpp and Prepare - HackerRank</a></li>
                         <li ><a className="hover:border-b-2 hover:border-blue-500" href="">Learn Cpp and Data Structures - CodeChef</a></li>
                     </ul>
                 </div>
