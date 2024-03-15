@@ -4,7 +4,7 @@ export const posts = [
         id: 1,
         pic: pictureCard,
         title: "Coming Soon",
-        shortDesc: "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+        shortDesc: "Here are the biggest enterprise technology acquisitions of 2021 so far",
 
     },
     {
