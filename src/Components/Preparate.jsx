@@ -39,6 +39,21 @@ export default function Preparate() {
                         <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://en.cppreference.com/w/">Cpp Reference</a></li>
                     </ul>
                 </div>
+                <div>
+                    <h1 className="text-3xl font-bold  pb-2 pt-2 max-md:w-full  max-md:text-3xl text-white">Páginas con Documentación</h1>
+                    <p className="opacity-70  pb-4  max-md:w-full  max-md:text-lg [&>strong]:text-blue-500 " >
+                        Estas páginas sirven de mucho, ya que puedes buscar información detallada de las estructuras por si tienes dudas o como implementar.
+                    </p>
+                    <ul className="list-disc pl-5 ">
+                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://cp-algorithms.com/">CodeForces</a></li>
+                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="http://wcipeg.com/wiki/Special:AllPages">AtCoder</a></li>
+                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://en.cppreference.com/w/">TopCoder</a></li>
+                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://en.cppreference.com/w/">HackerRank</a></li>
+                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://en.cppreference.com/w/">LeetCode</a></li>
+                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://en.cppreference.com/w/">Virtual Judge</a></li>
+                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://en.cppreference.com/w/">CodeCheft</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     )

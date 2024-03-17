@@ -1,11 +1,10 @@
 import { Badge } from "./Badge";
-import logoUNJFS from '../assets/images/logounjfsc.png'
-
-
 import { Card } from "./Card";
 import Discord from "./icons/Discord";
 import Facebook from "./icons/Facebook";
 import { posts } from "../utils/posts";
+import { Link } from "react-router-dom";
+
 const firstThree = posts.slice(0, 3);
 export default function Main() {
     return (
@@ -38,9 +37,8 @@ export default function Main() {
                             return <Card key={post.id} pictureNews={post.pic} titleNews={post.title} descNews={post.shortDesc} />
                         })
                     }
-                    
                 </div>
-                <button type="button" className="mt-3 py-2.5 px-5 me-2 mb-2 text-sm font-medium rounded-lg border  focus:z-10 focus:ring-4 focus:ring-zinc-700 bg-zinc-800 text-zinc-400 border-zinc-600 hover:text-white hover:bg-zinc-700">Ver mas...</button>
+                <Link to='/blog' className="mt-3 py-2.5 px-5 me-2 mb-2 text-sm font-medium rounded-lg border  focus:z-10 focus:ring-4 focus:ring-zinc-700 bg-zinc-800 text-zinc-400 border-zinc-600 hover:text-white hover:bg-zinc-700">Ver mas...</Link>
 
             </section>
         </main>
