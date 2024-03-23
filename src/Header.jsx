@@ -1,6 +1,5 @@
 
 import { FaGithub } from 'react-icons/fa';
-import logoUNJFS from './assets/images/logounjfsc.png';
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useState } from 'react';
 import NavLInks from './Components/NavLinks';
