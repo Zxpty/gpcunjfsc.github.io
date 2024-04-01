@@ -40,18 +40,28 @@ export default function Preparate() {
                     </ul>
                 </div>
                 <div>
-                    <h1 className="text-3xl font-bold  pb-2 pt-2 max-md:w-full  max-md:text-3xl text-white">Páginas con Documentación</h1>
+                    <h1 className="text-3xl font-bold  pb-2 pt-2 max-md:w-full  max-md:text-3xl text-white">Páginas Con Documentación</h1>
                     <p className="opacity-70  pb-4  max-md:w-full  max-md:text-lg [&>strong]:text-blue-500 " >
                         Estas páginas sirven de mucho, ya que puedes buscar información detallada de las estructuras por si tienes dudas o como implementar.
                     </p>
                     <ul className="list-disc pl-5 ">
                         <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://cp-algorithms.com/">CodeForces</a></li>
                         <li ><a className="hover:border-b-2 hover:border-blue-500" href="http://wcipeg.com/wiki/Special:AllPages">AtCoder</a></li>
-                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://en.cppreference.com/w/">TopCoder</a></li>
-                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://en.cppreference.com/w/">HackerRank</a></li>
-                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://en.cppreference.com/w/">LeetCode</a></li>
-                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://en.cppreference.com/w/">Virtual Judge</a></li>
-                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://en.cppreference.com/w/">CodeCheft</a></li>
+                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://www.topcoder.com/">TopCoder</a></li>
+                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://www.hackerrank.com/">HackerRank</a></li>
+                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://leetcode.com/">LeetCode</a></li>
+                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://vjudge.net/">Virtual Judge</a></li>
+                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://www.codechef.com/">CodeChef</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 className="text-3xl font-bold  pb-2 pt-2 max-md:w-full  max-md:text-3xl text-white">Libros Importantes </h1>
+                    <p className="opacity-70  pb-4  max-md:w-full  max-md:text-lg [&>strong]:text-blue-500 " >
+                    Estos libros son muy importantes, ya que en ellos se pueden encontrar la mayoría de los temas importantes de la programación competitiva, los cuales están explicados en detalle.
+                    </p>
+                    <ul className="list-disc pl-5 ">
+                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://cses.fi/book/book.pdf">Competitive Programming Handbook</a></li>
+                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://cses.fi/">Practice Problems - CSES</a></li>
                     </ul>
                 </div>
             </div>

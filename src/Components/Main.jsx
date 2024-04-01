@@ -38,8 +38,7 @@ export default function Main() {
                         })
                     }
                 </div>
-                <Link to='/blog' className="mt-3 py-2.5 px-5 me-2 mb-2 text-sm font-medium rounded-lg border  focus:z-10 focus:ring-4 focus:ring-zinc-700 bg-zinc-800 text-zinc-400 border-zinc-600 hover:text-white hover:bg-zinc-700">Ver mas...</Link>
-
+                {/* <Link to='/blog' className="mt-3 py-2.5 px-5 me-2 mb-2 text-sm font-medium rounded-lg border  focus:z-10 focus:ring-4 focus:ring-zinc-700 bg-zinc-800 text-zinc-400 border-zinc-600 hover:text-white hover:bg-zinc-700">Ver mas...</Link> */}
             </section>
         </main>
     )

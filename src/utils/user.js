@@ -2,11 +2,12 @@ import MarianaPic from '../assets/images/mariana.jpeg'
 import JhonPic from '../assets/images/jhon.jpeg'
 import MiguelPic from '../assets/images/miguel.jpeg'
 import KevinPic from '../assets/images/kevin.jpeg'
+import MatiasPic from '../assets/images/matias.jpeg'
 export const users = [
     {
         name: "Jhon Oblitas Gavidia",
         picCard: JhonPic,
-        rol: "Fundador"
+        rol: "Lider de Comunidad"
 
     },
     {
@@ -23,7 +24,7 @@ export const users = [
     },
     {
         name: "Matias Árevalo",
-        picCard: MiguelPic,
+        picCard: MatiasPic,
         rol: "Lider de Comunidad"
 
     },
