@@ -23,7 +23,7 @@ export default function Preparate() {
                         la cuales de una u otra manera les servira de mucho apoyo si recien estan empezando.
                     </p>
                     <ul className="list-disc pl-5 ">
-                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="">Introducción C++ - OmegaUp</a></li>
+                        <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://omegaup.com/course/introduccion_a_cpp/">Introducción C++ - OmegaUp</a></li>
                         <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://www.hackerrank.com/domains/cpp">Learn Cpp and Prepare - HackerRank</a></li>
                         <li ><a className="hover:border-b-2 hover:border-blue-500" href="">Learn Cpp and Data Structures - CodeChef</a></li>
                     </ul>
@@ -40,9 +40,9 @@ export default function Preparate() {
                     </ul>
                 </div>
                 <div>
-                    <h1 className="text-3xl font-bold  pb-2 pt-2 max-md:w-full  max-md:text-3xl text-white">Páginas Con Documentación</h1>
+                    <h1 className="text-3xl font-bold  pb-2 pt-2 max-md:w-full  max-md:text-3xl text-white">Páginas Para Practicar Con Problemas</h1>
                     <p className="opacity-70  pb-4  max-md:w-full  max-md:text-lg [&>strong]:text-blue-500 " >
-                        Estas páginas sirven de mucho, ya que puedes buscar información detallada de las estructuras por si tienes dudas o como implementar.
+                        Estas páginas sirven de mucho, para poder practicar y competir en sus diferente torneos.
                     </p>
                     <ul className="list-disc pl-5 ">
                         <li ><a className="hover:border-b-2 hover:border-blue-500" href="https://cp-algorithms.com/">CodeForces</a></li>
