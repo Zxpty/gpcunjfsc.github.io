@@ -1,4 +1,5 @@
 import MarianaPic from '../assets/images/mariana.jpeg'
+import FrancoPic from '../assets/images/franco.jpeg'
 import JhonPic from '../assets/images/jhon.jpeg'
 import MiguelPic from '../assets/images/miguel.jpeg'
 import KevinPic from '../assets/images/kevin.jpeg'
@@ -13,6 +14,12 @@ export const users = [
     {
         name: "Mariana Luyo Villalobos",
         picCard: MarianaPic,
+        rol: "Lider de Comunidad"
+
+    },
+    {
+        name: "Franco Quiuia Estrada",
+        picCard: FrancoPic,
         rol: "Lider de Comunidad"
 
     },
