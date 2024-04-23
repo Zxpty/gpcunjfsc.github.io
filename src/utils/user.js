@@ -18,7 +18,7 @@ export const users = [
 
     },
     {
-        name: "Franco Quiuia Estrada",
+        name: "Franco Quiquia Estrada",
         picCard: FrancoPic,
         rol: "Lider de Comunidad"
 
